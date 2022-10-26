@@ -278,7 +278,7 @@ a:active {
 h1 {
     z-index: 1;
   font-family: "Bungee Spice", cursive;
-  animation: logo 8s ease-in-out ;
+  /*animation: logo 8s ease-in-out ;*/
 }
 @keyframes logo {
   0% {transform: scale(1);
