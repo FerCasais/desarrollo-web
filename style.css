@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+#body { 
+  background-image: url(#);
+  background-color: rgb(43, 33, 33);
+  background-blend-mode: color-dodge;
+}
+
+
+
+
+header {
+  text-align: center;
+}
+
+.parrafo {
+  color: rgb(173, 168, 168);
+  text-align: justify;
+}
+
+.texto1 {
+  text-align: center;
+}
+
+form {
+  font-family: "Bungee Spice", cursive;
+
+}
+
+/*escape*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+#escape {
+  text-align:center;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+ color: rgb(51, 51, 46);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3vw;
+  font-weight:300;
+   overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.escape {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+ 
+ 
+}
+
+.escape:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 12s ease-in-out infinite;
+}
+
+.escape:last-of-type {
+  width:0px;
+  animation: reveal 7s ease-in-out infinite;
+}
+
+.escape:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s ease-in infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left: 0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:0px;}
+}
+
+span {
+  color: red;
+}
+
+/*animaciones*/
+
+.foto-animada:hover {
+  transform: scale(1.2);
+    
+}
+
+.foto-animada {
+  animation: fotosLanding 8s ease-in-out;
+}
+@keyframes fotosLanding {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#video {
+  transform: scale(.3);
+  transition: all 8s ease;
+
+  animation: nueva 6s ease-in-out infinite;
+} 
+@keyframes nueva {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg); scale: .7;}
+  50% {transform: rotate(0deg); scale: .5;}
+  100% {
+    opacity: 0.6;
+    transform: rotate(360deg); scale: 1;}
+} 
+
+/*Efecto maquina de escriir CodePen*/
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h4 { 
+	position: relative; 
+	float: left;
+	background-color: white;
+	color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  
+	
+}
+
+h4 span {
+    position:absolute;
+    right:0;
+    width:0;
+   background-color:white;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+/*Efecto maquina de escriir CodePen*/
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h6 { 
+	position: relative; 
+	float: left;
+	background-color: rgb(43, 33, 33);
+	color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  
+	
+}
+
+h6 span {
+    position:absolute;
+    right:0;
+    width:0;
+   background-color: rgb(43, 33, 33);
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+.aside-about {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.imagenes-aside {
+  margin: 10px;
+}
+
+.texto-revistas {
+ position: relative;
+ top: 50%;
+  color: #ccc;
+}
+
+.texto-revistas-foto {
+  position: relative;
+  top: 50%;
+   color: #ccc;
+ }
+
+.texto-revistas:hover {
+  transform: scale(3);
+ 
+}
+
+
+.texto-revistas-foto:hover {
+  transform: scale(2);
+  z-index: 1;
+
+}
+
+ section fotos-en-paginas container row {
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+#menu {
+  padding-left: 37%;
+  font-family: "Bungee Spice", cursive;
+  position: absolute;
+  top: 15%;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+ul ol {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+ul li:hover ol {
+  display: block;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: yellow;
+  text-decoration: none;
+  font-family: "Bungee Spice", cursive;
+}
+
+
+
+h1 {
+    z-index: 1;
+  font-family: "Bungee Spice", cursive;
+  animation: logo 8s ease-in-out ;
+}
+@keyframes logo {
+  0% {transform: scale(1);
+    
+  }
+  50% {
+    
+    
+  }
+  75% {transform: scale(1.5)
+   
+  }
+  100% {transform: scale(1)
+    
+  }
+}
+
+
+form {
+  color: rgb(173, 168, 168);
+}
+
+
+
+
+/*
+
+.foto {
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-right: 20%;
+}
+
+.motion1 {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.motion3 {
+  margin-left: 0%;
+}
+
+ul {}
+
+.bio {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.contacto {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 10%;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: relative;
+  color: blue;
+}
+
+.portfolio {
+  position: absolute;
+  top: 5%;
+}
+
+#contenedor-fotos {
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.contenedor-videos {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  padding: 60px;
+}
+
+#boton-home {
+  margin-top: 120px;
+  margin-left: 50%;
+  color: blueviolet;
+}
+
+#boton-home-en-paginas-videos {
+  margin-top: 160px;
+  margin-left: 50%;
+  color: blueviolet;
+}
+
+iframe {
+  position: absolute;
+  right: 10px;
+}
+
+.parrafo {
+  width: 200px;
+  margin-left: 25px;
+}
+
+.contact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+.foto-bio {
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.foto-contact {
+  margin-top: 100px;
+}
+
+.botones-menu {
+  padding: 10px;
+}
+
+.paginas-videos {
+  background-color: black;
+}
+
+section .contenedor-fotos {
+  margin-top: 0px;
+}
+
+.input {
+  margin-left: 20px;
+  border: 1px;
+  border-color: blue;
+  border-style: solid;
+}
+
+button {
+  color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 1px;
+  border-color: blue;
+  border-style: solid;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bio {
+  margin-left: 20%;
+  margin-right: 10%;
+}*/
