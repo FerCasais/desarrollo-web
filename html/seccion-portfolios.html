@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0," />
   <title>fcstudios</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="style.css" />
   <!--fuente de google fonts-->
@@ -14,12 +14,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Source+Serif+Pro:wght@300&display=swap"
     rel="stylesheet">
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </head>
+
+
+  <!--AOS-->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+</head>
   <body>
-    <!--Pagina Prinicipal-->
+   
     <header>
       <div class="container">
         <div class="row">
@@ -27,11 +34,12 @@
             <a href="index.html"><h1>FCSTUDIOS</h1></a> </div>
       </div>
     
-    <!-- Bootstrap menu-->
-    <nav class="navbar navbar-expand-lg bg-light">
+     <!-- Bootstrap menu-->
+     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid menu">
         <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -39,55 +47,92 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            
-            
+
+
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="seccion-portfolios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="html/seccion-portfolios.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Portfolios
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="seccion-campania.html">Campañas</a></li>
-                <li><a class="dropdown-item" href="seccion-publicidad.html">Publicidad</a></li>
-                <li><a class="dropdown-item" href="seccion-estudio.html">Estudio</a></li>
-                <li><a class="dropdown-item" href="seccion-exteriores.html">Exteriores</a></li>
-                <li><a class="dropdown-item" href="seccion-locaciones.html">Locaciones</a></li>
-                <li><a class="dropdown-item" href="seccion-portfolios.html">Portfolios</a></li>
+                <li><a class="dropdown-item" href="html/seccion-campania.html">Campañas</a></li>
+                <li><a class="dropdown-item" href="html/seccion-publicidad.html">Publicidad</a></li>
+                <li><a class="dropdown-item" href="html/seccion-estudio.html">Estudio</a></li>
+                <li><a class="dropdown-item" href="html/seccion-exteriores.html">Exteriores</a></li>
+                <li><a class="dropdown-item" href="html/seccion-locaciones.html">Locaciones</a></li>
+                <li><a class="dropdown-item" href="html/seccion-portfolios.html">Portfolios</a></li>
               </ul>
-    
-                <li class="nav-item">
-                  <a class="nav-link" href="index Motion.html">Motions</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="seccion-revistas.html">Magazines</a>
-                </li>          
-                <li class="nav-item">
-                  <a class="nav-link" href="index About.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index Contact.html">Contact</a>
-                </li>
-                         
+
+            <li class="nav-item">
+              <a class="nav-link" href="html/index Motion.html">Motions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/seccion-revistas.html">Magazines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/index About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/index Contact.html">Contact</a>
+            </li>
+
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </nav><!-- hasta aca Bootstrap menu-->
     </header>
-    <div class="paginas-videos">
-      <section class="contenedor-videos">
-        <a href="index Motion.html"
-          ><video
-            src="videos/Versacereel2.mp4"
-            type="video/mp4"
-            controls
-            autoplay
-            muted
-            loop
-          ></video
-        ></a>
-      </section>
+
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"> <div class="contenedor">
+        <h4>Books y Portfolios  .<span>&#160;</span></h1>
+      </div>
+          </div>
+        </div>
+      </div>
+           </article>
+    
+    <section>
+
+    <div class="container text-center  p-1"  >
+      <div class="row g-2">
+        <div class="col-md-4 col-xs-3 position-relative"><p class="texto-revistas position-absolute top-50 start-50">
+          PARÍS</p><img src="img/DSC_7401a.jpg" alt="foto en Locación" width="100%" class="img-fluid"/>
+        </div>
+        <div class="col-md-4 col-xs-3 position-relative"><p class="texto-revistas position-absolute top-50 start-50">
+          NEW YORK</p>
+          <img src="img/DSC_8857aa.jpg" alt="foto en Locación" width="100%" class="img-fluid"/>
+        </div>
+        <div class="col-md-4 col-xs-3 position-relative"><p class="texto-revistas position-absolute top-50 start-50">
+          LONDRES</p>
+          <img src="img/DSC_7238a.jpg" alt="foto en Locación" width="100%" class="img-fluid" />
+        </div>
+      </div>
     </div>
 
+    
+
+    <div class="container text-center p-1">
+      <div class="row g-2 ">
+        <div class="col position-relative"><p class="texto-revistas-foto position-absolute top-50 start-50 ">
+         </p><img src="img/DSC_7252a.jpg"alt="foto en Locación" width="100%" class="foto-animada" />
+        </div>
+        <div class="col position-relative"><p class="texto-revistas-foto position-absolute top-50 start-50">
+          </p>
+          <img src="img/DSC_7398a.jpg" alt="foto en Locación" width="100%" class="foto-animada"/>
+        </div>
+        <div class="col position-relative"><p class="texto-revistas-foto position-absolute top-50 start-50">
+          </p>
+          <img src="img/DSC_7401a.jpg"alt="foto en Locación" width="100%" class="foto-animada" />
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+  
     <footer>
       <nav>
     
@@ -127,5 +172,15 @@
               
       </nav>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    
   </body>
 </html>
