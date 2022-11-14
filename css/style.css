@@ -273,6 +273,10 @@ header div div div a h1 h1 {
   font-family: "Bungee Spice", cursive;
 }
 
+h2 {
+  font-size: smaller;
+}
+
 /*Efecto maquina de escriir CodePen*/
 .contenedor {
   margin: auto;
@@ -311,7 +315,7 @@ h4 span {
   display: table;
 }
 
-h2 {
+h3 {
   position: relative;
   float: left;
   background-color: rgb(43, 33, 33);
@@ -320,7 +324,7 @@ h2 {
   font-weight: bolder;
 }
 
-h2 span {
+h3 span {
   position: absolute;
   right: 0;
   width: 0;
