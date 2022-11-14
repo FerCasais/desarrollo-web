@@ -249,6 +249,22 @@ div div div p img .foto-animada3:hover {
   background: linear-gradient(141deg, rgb(25, 25, 25) 25%, rgb(33, 28, 28) 40%, rgb(26, 24, 24) 55%);
 }
 
+#body-de-about {
+  background-color: rgb(43, 33, 33);
+  background-blend-mode: color-dodge;
+}
+
+#h4-de-about {
+  color: red;
+  background-color: orange;
+  font-weight: bold;
+}
+
+#main-contact {
+  font-weight: bold;
+  color: red;
+}
+
 .contact {
   padding: 10%;
 }
@@ -272,9 +288,13 @@ header {
 header div div div a h1 h1 {
   font-family: "Bungee Spice", cursive;
 }
-
-h2 {
+header div div div a h1 h2 {
   font-size: smaller;
+}
+@media only screen and (max-width: 580px) {
+  header h2 {
+    font-size: large;
+  }
 }
 
 /*Efecto maquina de escriir CodePen*/
@@ -296,7 +316,7 @@ h4 span {
   position: absolute;
   right: 0;
   width: 0;
-  background-color: white;
+  background-color: rgb(79, 59, 59);
   border-left: 1px solid #000;
   animation: escribir 5s steps(30) infinite alternate;
 }
@@ -363,6 +383,11 @@ h3 span {
     scale: 1;
   }
 }
+#main-contact {
+  font-weight: bold;
+  color: red;
+}
+
 * {
   margin: 0;
   padding: 0;

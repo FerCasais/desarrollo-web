@@ -1,3 +1,19 @@
+@import "../base/variables.scss";
+@import "../base/listas";
+
+
 .col-md-3.col-xs-6.g-2 {
     background:linear-gradient(141deg, rgb(25, 25, 25) 25%, rgb(33, 28, 28) 40%, rgb(26, 24, 24) 55%);
+}
+
+#body-de-about {
+    background-color: $bg-gradient ;
+    background-blend-mode: $bg-blend ;
+}
+
+#h4-de-about {
+    color: nth($colores, 1);
+    background-color: nth($colores, 3);
+    font-weight: bold;
+
 }
