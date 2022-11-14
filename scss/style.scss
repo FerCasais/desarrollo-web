@@ -1,0 +1,80 @@
+@import "./base/animacion-escape";
+@import "./base/efectos-superponer-fotos";
+@import "./base/fotos-animaciones";
+@import "./components/about";
+@import "./components/contact";
+@import "./components/footer";
+@import "./components/form";
+@import "./components/fotos-pagina-inicio";
+@import "./components/header";
+@import "./base/maquina-escribir";
+@import "./components/video-opener";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body { 
+    background-image: url(#);
+    background-color: rgb(43, 33, 33);
+    background-blend-mode: color-dodge;
+  }
+  
+  
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: yellow;
+    text-decoration: none;
+    font-family: "Bungee Spice", cursive;
+  }
+  
+  .parrafo {
+    color: rgb(173, 168, 168);
+    text-align: justify;
+  }
+  
+  .texto1 {
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+   
+           
+           
+
+          
+              
+
+      

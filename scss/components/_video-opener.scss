@@ -1,0 +1,29 @@
+#video {
+    transform: scale(.3);
+    transition: all 8s ease;
+  
+    animation: animacion-video 6s ease-in-out infinite;
+  } 
+ 
+    div {
+        div {
+            div {
+                video {
+
+                }
+            }
+        }
+    }
+    @keyframes animacion-video {
+      0% {
+        opacity: 1;
+        transform: rotate(0deg); scale: 1;
+      }
+      50% {
+        transform: rotate(0deg); scale: .5;
+      }
+      100% {
+        opacity: 0.6;
+        transform: rotate(360deg); scale: 1;
+      }
+    } 

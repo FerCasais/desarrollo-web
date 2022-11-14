@@ -1,0 +1,61 @@
+/*Efecto maquina de escriir CodePen*/
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h4 { 
+	position: relative; 
+	float: left;
+	background-color: white;
+	color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  
+	
+}
+
+h4 span {
+    position:absolute;
+    right:0;
+    width:0;
+   background-color:white;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+/*Efecto maquina de escriir CodePen*/
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h2 { 
+	position: relative; 
+	float: left;
+	background-color: rgb(43, 33, 33);
+	color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  
+	
+}
+
+h2 span {
+    position:absolute;
+    right:0;
+    width:0;
+   background-color: rgb(43, 33, 33);
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}

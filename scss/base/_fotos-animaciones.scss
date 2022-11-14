@@ -1,0 +1,181 @@
+
+
+
+       
+          .texto-revistas-foto:hover {
+            transform: scale(2);
+           
+          
+          }
+        
+            .foto-animada1:hover {
+              transform: scale(3);
+              translate: 104%;  
+             
+              
+             }
+  
+         
+  
+  
+  
+  
+      div{
+        p{
+          .texto-revistas-foto:hover {
+            transform: scale(2);
+           
+          
+          }
+          img{
+            .foto-animada2:hover {
+              transform: scale(3);
+              translate: 104%;  
+             
+              
+             }
+  
+          }
+        }
+      }
+
+      section {
+        div{
+          div{
+            div{
+              p{
+                .texto-revistas {
+                  position: relative;
+                  top: 50%;
+                   color: #ccc;
+                 }
+              }  .texto-revistas:hover {
+                transform: scale(2);
+                
+               
+              }
+            }
+          }
+        }
+      }
+
+      div{
+        div{
+          div{
+            p{
+              .texto-revistas-foto {
+                position: relative;
+                top: 50%;
+                 color: #ccc;
+               }
+                         
+                .foto-animada {
+                animation: fotosLanding 8s ease-in-out;
+              }
+              
+              @keyframes fotosLanding {
+                0% {
+                  opacity: 1;
+                    
+                   }
+                50% {opacity: 0;}
+                100% {opacity: 1;}
+                
+              }
+
+              }
+            }
+          }
+        }
+     
+
+      div{
+        div{
+          div{
+            p{
+              img{ .foto-animada1:hover {
+                transform: scale(3);
+                translate: 104%;  
+               
+                
+               }
+
+              }
+            }
+          }
+        }
+      }
+
+      div{
+        div{
+          div{
+            p{
+              img{  
+                .foto-animada2:hover {
+                  transform: scale(3);
+                  translate: 0px;  
+                
+                 }
+               
+                
+               }
+
+              }
+            }
+          }
+        }
+      
+        
+         div{
+          div{
+            div{
+              p{
+                img{  
+                  .foto-animada3:hover {
+                    transform: scale(3);
+                    translate: -104%;  
+                   }
+          
+                 
+                  
+                 }
+  
+                }
+              }
+            }
+          }
+
+          /*animaciones*/
+
+.foto-animada1:hover {
+  transform: scale(3);
+  translate: 104%;  
+ 
+  
+ }
+ 
+ .foto-animada2:hover {
+   transform: scale(3);
+   translate: 0px;  
+ 
+  }
+ 
+  .foto-animada3:hover {
+   transform: scale(3);
+   translate: -104%;  
+  }
+ 
+ .foto-animada {
+   animation: fotosLanding 8s ease-in-out;
+ }
+ 
+ @keyframes fotosLanding {
+   0% {
+     opacity: 1;
+       
+      }
+   50% {opacity: 0;}
+   100% {opacity: 1;}
+   
+ }
+        
