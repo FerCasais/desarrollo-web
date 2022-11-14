@@ -316,7 +316,7 @@ h4 span {
   position: absolute;
   right: 0;
   width: 0;
-  background-color: rgba(196, 150, 105, 0.865);
+  background-color: rgba(146, 110, 73, 0.945);
   border-left: 1px solid #000;
   animation: escribir 5s steps(30) infinite alternate;
 }
