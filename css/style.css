@@ -316,7 +316,7 @@ h4 span {
   position: absolute;
   right: 0;
   width: 0;
-  background-color: rgba(146, 110, 73, 0.945);
+  background-color: white;
   border-left: 1px solid #000;
   animation: escribir 5s steps(30) infinite alternate;
 }
@@ -348,7 +348,8 @@ h3 span {
   position: absolute;
   right: 0;
   width: 0;
-  background-color: rgb(234, 199, 199);
+  background-color: rgb(43, 33, 33);
+  background-blend-mode: color-dodge;
   border-left: 1px solid #000;
   animation: escribir 5s steps(30) infinite alternate;
 }
